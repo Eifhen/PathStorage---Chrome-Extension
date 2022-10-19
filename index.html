@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js" defer></script>
+    <title>PathStorage</title>
+</head>
+<body>
+    <section class="shadow rounded mx-auto  w-350 p-0">
+        <header class="bg-darker rounded-top text-gray p-2">
+            <h1 class="title m-0">PathStorage</h1>
+            <strong>You can storage any link or path here</strong>
+        </header>
+        <div class="bg-white d-flex pl-2 pr-2 pb-1 pt-1">
+            <input id="path" class="rounded col-6 mr-1 " type="text" value="" placeholder="Path">
+            <button id="save-path" class="rounded bg-darker shadow-sm text-gray col-3" type="button">
+                <strong>Save path</strong>
+            </button>
+        </div>
+        <div class="bg-gray-light p-1 pr-2 pl-2">
+            <div class="d-flex">
+                <button id="get-path" class="rounded bg-blue-royal text-white col-5 mr-1" type="button">Save tab</button>
+                <button id="delete-paths" class="rounded bg-wine text-white col-5 " type="button">Delete Paths</button>
+            </div>
+            <ul id="paths" class="mt-0 pt-0 pr-2 overflow-y h-max-40vh"></ul>
+        </div>
+        <footer class="text-white bg-darker text-center rounded-bottom">
+            <h3> 
+                Gabriel Jiménez <br>
+                <small>19 08 2022</small>
+            </h3>
+        </footer>
+    </section>
+</body>
+</html>
